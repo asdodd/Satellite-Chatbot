@@ -120,3 +120,12 @@ class TestAction(Action):
         print(fid_db)
 
         return []
+    
+    
+    
+class weatherAPIClass(Action):
+    def name(self) -> Text:
+        return "weatherAPI"
+    def run(self, dispatcher, tracker, domain):
+        weatherAPI()
+    return []
